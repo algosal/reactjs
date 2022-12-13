@@ -1,0 +1,36 @@
+
+body{
+    background-color: black;
+}
+      
+.box {
+            display: flex;
+            flex-direction: column;
+            height: 87vh;
+           
+          }
+      
+
+.item {
+                /*must use this*/
+        display : flex;
+            
+                /* Align items and their text in the middle center horizontally and vertically*/
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+                
+                /*regular*/ 
+        background-color: white;
+        border-radius : 20px;
+        width : 90%;
+        height : 30vh;
+        margin-top : 3vh;
+        font-size : 10vh;
+}
+.item:hover{
+              background-color: grey;
+              color: white;
+}
+
+
